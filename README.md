@@ -7,7 +7,7 @@ Module that allow you to see the Site location and the current time for the loca
 
 Install
 ------------
-Run post migration:
+Installing site location custom module:
 ```bash
 drush en site_location
 ```
