@@ -1,7 +1,8 @@
 Site Location Drupal Module
 ------------
 
-Module that allow you to see the Site location and the current time for the location.
+Module that allow you to see the Site location
+and the current time for the location.
 
 ![Site Location Block Sample](site_location_block.png "Site Location Block Sample")
 
