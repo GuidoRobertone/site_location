@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for Site Location module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function site_location_theme($existing, $type, $theme, $path) {
+  return [
+    'site_location_block' => [
+      'variables' => [
+        'country' => NULL,
+        'city' => NULL,
+        'timezone' => NULL,
+        'time' => NULL,
+      ],
+    ],
+  ];
+}

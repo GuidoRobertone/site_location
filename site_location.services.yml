@@ -1,0 +1,4 @@
+services:
+  site_location.manager:
+    class: Drupal\site_location\SiteLocationManager
+    arguments: ['@config.factory']
